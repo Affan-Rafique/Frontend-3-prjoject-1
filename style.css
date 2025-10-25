@@ -1,0 +1,139 @@
+/* General Page Styling */
+body {
+  background-color: #0b0b17;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  background-color: #0b0b17;
+  width: 400px;
+}
+
+/* Title */
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Timer Input Section */
+.timer-input {
+  background-color: #1a1a2e;
+  border-radius: 12px;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.timer-input label {
+  font-size: 0.9rem;
+}
+
+.time-fields {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input[type="text"] {
+  width: 40px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #0b0b17;
+  color: #fff;
+}
+
+span {
+  color: #ccc;
+  font-weight: bold;
+}
+
+button {
+  background-color: #f9e906;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Current Timers Section */
+.current-timers {
+  margin-top: 25px;
+}
+
+.current-timers h3 {
+  background-color: #1a1a2e;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 8px 20px;
+  font-size: 0.9rem;
+}
+
+.no-timers {
+  margin-top: 10px;
+  color: #999;
+}
+
+/* Individual Timer */
+.timer {
+  background-color: #1a1a2e;
+  margin: 12px 0;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.timer p {
+  font-size: 1.2rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.timer button {
+  background-color: #f9e906;
+  color: #000;
+  border-radius: 8px;
+  padding: 6px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Timer Up Style */
+.timer.up {
+  background-color: #f9e906;
+  color: #000;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Remove number input arrows (if any browser shows them) */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
